@@ -6,21 +6,26 @@ import { arbitrumSepolia, baseSepolia, foundry } from 'wagmi/chains';
 const projectId = import.meta.env.VITE_WALLETCONNECT_PROJECT_ID;
 
 // 2. Put all supported chains in an array
-const polkadotTestnet = {
-  id: 420420417,
-  name: 'Polkadot Hub Testnet',
-  network: 'polkadot-hub-testnet',
+// Define Injective EVM Testnet
+const injectiveTestnet = {
+  id: 1439,
+  name: 'Injective EVM Testnet',
+  network: 'injective-evm-testnet',
   nativeCurrency: {
     decimals: 18,
-    name: 'PAS',
-    symbol: 'PAS',
+    name: 'INJ',
+    symbol: 'INJ',
   },
   rpcUrls: {
-    public: { http: ['https://services.polkadothub-rpc.com/testnet'] },
-    default: { http: ['https://services.polkadothub-rpc.com/testnet'] },
+    public: { http: ['https://k8s.testnet.json-rpc.injective.network'] },
+    default: { http: ['https://k8s.testnet.json-rpc.injective.network'] },
+  },
+  blockExplorers: {
+    default: { name: 'Injective Blockscout', url: 'https://testnet.blockscout.injective.network' },
   },
 };
-const chains = [arbitrumSepolia, baseSepolia, foundry, polkadotTestnet];
+
+const chains = [arbitrumSepolia, baseSepolia, foundry, injectiveTestnet];
 
 
 const metadata = {
@@ -40,7 +45,7 @@ createWeb3Modal({
   wagmiConfig,
   projectId,
   // This just sets the initial UI view, it does NOT lock the app
-  defaultChain: polkadotTestnet, 
+  defaultChain: injectiveTestnet, 
   themeMode: 'dark',
 });
 
@@ -50,7 +55,7 @@ export const CONTRACT_ADDRESSES = {
   84532: import.meta.env.VITE_BASE_WRAPUP,            // Base Sepolia
   421614: import.meta.env.VITE_ARB_WRAPUP,            // Arbitrum Sepolia
   102031: "0x1e9f2F91E0673E3313C68b49a2262814C7d8921e", // <-- Add Creditcoin Address
-  420420417: "0xcd04001daE47548e3e28E847cF2669752acDC57A" // <-- Add Polkadot Hub Testnet Address
+  1439: "0x6B59511a689221eB7a0a21E3B1D6d88031C17c3d" // <-- Add Polkadot Hub Testnet Address
 };
 
 export const WUPToken_ADDRESSES = {
@@ -58,7 +63,7 @@ export const WUPToken_ADDRESSES = {
   84532: import.meta.env.VITE_BASE_TOKEN,
   421614: import.meta.env.VITE_ARB_TOKEN,
   102031: "0xA5123b6D0e67b634DA8DC118DE99F72f24B6A33a", // <-- Add Creditcoin Address
-  420420417: "0x067A590CBc7610d5Ef00A9d5cE2d12889C0Ae31b" // <-- Add Polkadot Hub Testnet Address
+  1439: "0xcd04001daE47548e3e28E847cF2669752acDC57A" // <-- Add Polkadot Hub Testnet Address
 };
 
 export const WUPClaimer_ADDRESSES = {
@@ -66,7 +71,7 @@ export const WUPClaimer_ADDRESSES = {
   84532: import.meta.env.VITE_BASE_CLAIMER,
   421614: import.meta.env.VITE_ARB_CLAIMER,
   102031: "0x0b8Fe0D4e677E6a99b2B47b2F34A0e0D85240C24", // <-- Add Creditcoin Address
-  420420417: "0x012b50D023E4157D10f5562a8dD01D55e145B0a2" // <-- Add Polkadot Hub Testnet Address
+  1439: "0x067A590CBc7610d5Ef00A9d5cE2d12889C0Ae31b" // <-- Add Polkadot Hub Testnet Address
 };
 
 // 4. Paste your newly extracted ABIs here
