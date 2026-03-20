@@ -1,4 +1,4 @@
-# 🌐 Wrap-Up Evolved: Study Differently
+# 🌐 Wrap-Up: Study Differently
 **A Decentralized Web3 AI Research & News Curation Platform — Built on Injective**
 
 [![Live Demo](https://img.shields.io/badge/Live%20App-Coming%20Soon-10b981?style=for-the-badge&logo=vercel)](https://your-deployed-link.vercel.app/)
