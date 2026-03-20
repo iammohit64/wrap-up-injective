@@ -1,9 +1,10 @@
 # 🌐 Wrap-Up Evolved: Study Differently
 **A Decentralized Web3 AI Research & News Curation Platform — Built on Injective**
 
-[![Live Demo](https://img.shields.io/badge/Live%20App-wrap--up--polkadot.vercel.app-10b981?style=for-the-badge&logo=vercel)](https://wrap-up-polkadot.vercel.app/)
-[![Demo Video](https://img.shields.io/badge/Watch-Demo%20Video-FF0000?style=for-the-badge&logo=youtube)](https://youtu.be/gcb1c2ZSsmw)
-[![Polkadot](https://img.shields.io/badge/Chain-Polkadot%20Hub%20Testnet-E6007A?style=for-the-badge&logo=polkadot)](https://polkadot.network)
+[![Live Demo](https://img.shields.io/badge/Live%20App-Coming%20Soon-10b981?style=for-the-badge&logo=vercel)](https://your-deployed-link.vercel.app/)
+[![Demo Video](https://img.shields.io/badge/Watch-Demo%20Video-FF0000?style=for-the-badge&logo=googledrive)](https://drive.google.com/file/d/1sbGePwYa6FNhM_zTYL71aRYdGMJSEwrz/view?usp=sharing)
+[![GitHub](https://img.shields.io/badge/GitHub-Repo-181717?style=for-the-badge&logo=github)](https://github.com/iammohit64/wrap-up-injective)
+[![Injective](https://img.shields.io/badge/Chain-Injective%20EVM-00C2FF?style=for-the-badge)](https://injective.com)
 
 ---
 
@@ -11,7 +12,7 @@
 
 ### What is Wrap-Up Evolved?
 
-Wrap-Up Evolved is a fully-fledged decentralized social platform engineered for the modern Web3 researcher. We position it as a tool to **"Study Differently."** Instead of drowning in noisy Twitter feeds, scattered Discord servers, or financially motivated shilling, Wrap-Up delivers a **gamified, decentralized ecosystem** where high-quality articles and AI-generated research reports are curated, discussed, and permanently recorded on-chain via **Polkadot Hub Testnet**.
+Wrap-Up Evolved is a fully-fledged decentralized social platform engineered for the modern Web3 researcher. We position it as a tool to **"Study Differently."** Instead of drowning in noisy Twitter feeds, scattered Discord servers, or financially motivated shilling, Wrap-Up delivers a **gamified, decentralized ecosystem** where high-quality articles and AI-generated research reports are curated, discussed, and permanently recorded on-chain via **Injective's EVM**.
 
 The platform merges the speed and intelligence of AI with the trust and transparency of blockchain — creating a new category of tool: a **verifiable, community-driven knowledge layer for Web3.**
 
@@ -27,7 +28,7 @@ The Web3 information landscape is broken in three critical ways:
 | **Financial Bias & Shilling** | Content is routinely published to pump tokens, mislead investors, or spread FUD |
 | **No Verifiable Source of Truth** | There is no on-chain, cryptographically backed record of what content is accurate |
 
-Wrap-Up Evolved directly attacks all three by combining **AI-powered research synthesis**, **community-driven curation**, and **immutable on-chain storage** on the Polkadot ecosystem.
+Wrap-Up Evolved directly attacks all three by combining **AI-powered research synthesis**, **community-driven curation**, and **immutable on-chain storage** on Injective.
 
 ---
 
@@ -50,11 +51,11 @@ Users enter any research topic or question, and Wrap-Up's backend AI engine auto
 - **Scours the live web** for the most relevant and recent sources
 - **Synthesizes a structured, high-quality research report** — complete with key findings, summaries, and source citations
 - **Uploads the compiled report to IPFS** via Pinata, producing a permanent, tamper-proof content hash
-- **Commits the IPFS hash on-chain** to the WrapUp smart contract on Polkadot Hub Testnet, creating an immutable publication record
+- **Commits the IPFS hash on-chain** to the WrapUp smart contract on Injective EVM, creating an immutable publication record
 
 The result is a research report that is not just informative — it is **verifiably published on a decentralized, censorship-resistant network.** Every report gets its own on-chain fingerprint that anyone can independently verify.
 
-> **Use Case:** A user wants to understand the current state of Polkadot's parachain ecosystem. Instead of spending hours reading, they submit the prompt to Wrap-Up and receive a synthesized, sourced report in seconds — permanently stored and community-ranked.
+> **Use Case:** A user wants to understand the current state of Injective's DeFi ecosystem. Instead of spending hours reading, they submit the prompt to Wrap-Up and receive a synthesized, sourced report in seconds — permanently stored and community-ranked.
 
 ---
 
@@ -121,7 +122,7 @@ The WUPClaimer contract manages reward distribution in a transparent, auditable 
 
 ### 6. 🔒 On-Chain Content Provenance
 
-Every piece of content on Wrap-Up — whether AI-generated or user-curated — has a **cryptographic proof of existence** stored on the Polkadot Hub Testnet. This means:
+Every piece of content on Wrap-Up — whether AI-generated or user-curated — has a **cryptographic proof of existence** stored on Injective EVM. This means:
 
 - **Who published it** (wallet address)
 - **When it was published** (block timestamp)
@@ -148,7 +149,7 @@ Node.js / Express Backend
 IPFS (via Pinata)
     │  Full content uploaded → IPFS Hash returned
     ▼
-Polkadot Hub Testnet (Smart Contracts via Wagmi)
+Injective EVM (Smart Contracts via Wagmi)
     │  IPFS Hash + metadata committed on-chain
     ▼
 Frontend Polling (useReadContract)
@@ -164,7 +165,7 @@ User sees verified, on-chain content card
 2. Backend AI agent queries live web sources
 3. AI synthesizes structured report with citations
 4. Report uploaded to IPFS → hash returned
-5. Hash submitted to WrapUp.sol on Polkadot Hub Testnet
+5. Hash submitted to WrapUp.sol on Injective EVM
 6. Frontend displays report with on-chain publication badge
 7. Community upvotes, comments, and ranks the report
 8. High-quality report submitter earns WUP tokens
@@ -177,7 +178,7 @@ User sees verified, on-chain content card
 | Layer | Technology |
 |---|---|
 | **Smart Contracts** | Solidity, Foundry |
-| **Blockchain** | Polkadot Hub Testnet |
+| **Blockchain** | Injective EVM |
 | **Frontend** | React, Vite, TailwindCSS |
 | **State Management** | Zustand |
 | **Blockchain Interaction** | Wagmi, Viem |
@@ -188,21 +189,22 @@ User sees verified, on-chain content card
 
 ---
 
-## 🔴 Polkadot Integration
+## 🔵 Injective Integration
 
-Wrap-Up Evolved is deployed on the **Polkadot Hub Testnet**, leveraging Polkadot's EVM-compatible infrastructure to deliver:
+Wrap-Up Evolved is deployed on **Injective's EVM**, leveraging Injective's high-performance, interoperable infrastructure to deliver:
 
-- **Fast, low-cost transactions** — ideal for high-frequency social interactions like upvotes and comment submissions
-- **EVM Compatibility** — full support for Solidity smart contracts, enabling seamless developer experience with Foundry and Wagmi
-- **Ecosystem alignment** — built within the broader Polkadot ecosystem, positioning Wrap-Up to expand across parachains as the platform scales
+- **Zero gas fees** — enabling high-frequency social interactions like upvotes, comments, and report submissions without friction
+- **Lightning-fast finality** — on-chain content records confirmed in under a second, keeping the UX seamless
+- **EVM Compatibility** — full support for Solidity smart contracts, enabling a smooth developer experience with Foundry and Wagmi
+- **DeFi-native ecosystem alignment** — built on a chain purpose-built for finance, positioning Wrap-Up as a research layer for the next generation of DeFi users
 
-### ✅ Deployed Contracts — Polkadot Hub Testnet
+### ✅ Deployed Contracts — Injective EVM
 
 | Contract | Address |
 |---|---|
-| **WrapUp Core** | `0xcd04001daE47548e3e28E847cF2669752acDC57A` |
-| **WUP Token** | `0x067A590CBc7610d5Ef00A9d5cE2d12889C0Ae31b` |
-| **WUP Claimer** | `0x012b50D023E4157D10f5562a8dD01D55e145B0a2` |
+| **WrapUp Core** | `0x6B59511a689221eB7a0a21E3B1D6d88031C17c3d` |
+| **WUP Token** | `0xcd04001daE47548e3e28E847cF2669752acDC57A` |
+| **WUP Claimer** | `0x067A590CBc7610d5Ef00A9d5cE2d12889C0Ae31b` |
 
 ### Smart Contract Architecture
 
@@ -227,7 +229,7 @@ Wrap-Up Evolved is deployed on the **Polkadot Hub Testnet**, leveraging Polkadot
 ## 🗂️ Repository Structure
 
 ```
-wrap-up-evolved/
+wrap-up-injective/
 ├── contracts/
 │   ├── src/
 │   │   ├── WrapUp.sol          # Core content registry & upvote logic
@@ -260,13 +262,13 @@ wrap-up-evolved/
 ### Prerequisites
 - Node.js v18+
 - Foundry (for contract compilation & deployment)
-- A Web3 wallet (MetaMask recommended) connected to **Polkadot Hub Testnet**
+- A Web3 wallet (MetaMask recommended) connected to **Injective EVM**
 - Pinata API key (for IPFS uploads)
 
 ### 1. Clone the Repository
 ```bash
-git clone https://github.com/your-username/wrap-up-evolved.git
-cd wrap-up-evolved
+git clone https://github.com/iammohit64/wrap-up-injective.git
+cd wrap-up-injective
 ```
 
 ### 2. Install Frontend Dependencies
@@ -278,10 +280,10 @@ npm install
 ### 3. Configure Environment Variables
 ```bash
 # frontend/.env
-VITE_WRAPUP_CONTRACT=0xcd04001daE47548e3e28E847cF2669752acDC57A
-VITE_WUP_TOKEN=0x067A590CBc7610d5Ef00A9d5cE2d12889C0Ae31b
-VITE_WUP_CLAIMER=0x012b50D023E4157D10f5562a8dD01D55e145B0a2
-VITE_CHAIN_ID=<Polkadot Hub Testnet Chain ID>
+VITE_WRAPUP_CONTRACT=0x6B59511a689221eB7a0a21E3B1D6d88031C17c3d
+VITE_WUP_TOKEN=0xcd04001daE47548e3e28E847cF2669752acDC57A
+VITE_WUP_CLAIMER=0x067A590CBc7610d5Ef00A9d5cE2d12889C0Ae31b
+VITE_CHAIN_ID=<Injective EVM Chain ID>
 
 # backend/.env
 PINATA_API_KEY=your_pinata_key
@@ -306,7 +308,7 @@ npm run dev
 ```bash
 cd contracts
 forge build
-forge script script/Deploy.s.sol --rpc-url <polkadot_hub_testnet_rpc> --broadcast
+forge script script/Deploy.s.sol --rpc-url <injective_evm_rpc> --broadcast
 ```
 
 ---
@@ -316,19 +318,19 @@ forge script script/Deploy.s.sol --rpc-url <polkadot_hub_testnet_rpc> --broadcas
 | Dimension | Wrap-Up Evolved |
 |---|---|
 | **Real Problem** | Web3 information overload and misinformation are unsolved, billion-dollar problems |
+| **Injective Integration** | Core contracts deployed on Injective EVM — zero gas fees enable seamless social interactions at scale |
 | **Full-Stack Completeness** | Working frontend, backend, smart contracts, IPFS storage — all integrated end-to-end |
 | **Genuine Decentralization** | Content provenance and social data backed by the blockchain, not a database |
 | **Token Economic Design** | Incentives aligned so good content is financially rational to produce |
-| **Polkadot Native** | EVM-compatible contracts deployed and verified on Polkadot Hub Testnet |
 | **UX-First** | Research tools, comparator, and reader view built for real daily utility |
-| **Live & Accessible** | Fully deployed and demo-able at wrap-up-evolved.vercel.app |
+| **Live & Accessible** | Fully deployed and demo-able |
 
 ---
 
 ## 🔮 Roadmap
 
 - [ ] **Governance Module** — WUP holders vote on curation policies and platform parameters
-- [ ] **Parachain Expansion** — Deploy across additional Polkadot parachains for cross-chain content discovery
+- [ ] **Cross-Chain Expansion** — Leverage Injective's interoperability to enable cross-chain content discovery
 - [ ] **Mobile App** — React Native client for on-the-go research
 - [ ] **Reputation System** — NFT-based reputation badges for top curators
 - [ ] **DAO Treasury** — Protocol fees fund community grants for high-quality research
@@ -337,4 +339,6 @@ forge script script/Deploy.s.sol --rpc-url <polkadot_hub_testnet_rpc> --broadcas
 
 ## 👥 Team
 
-Built with ❤️ for the Polkadot Ecosystem.
+Built with ❤️ for the **Injective Africa Buildathon** and the broader Injective ecosystem.
+
+> Submitted to the [Injective Africa Buildathon](https://dorahacks.io) — a virtual builder showcase spotlighting Africa's growing Web3 ecosystem and developers worldwide building on Injective.
