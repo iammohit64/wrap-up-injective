@@ -10,9 +10,9 @@
 
 ## 📖 Full Project Description
 
-### What is Wrap-Up Evolved?
+### What is Wrap-Up?
 
-Wrap-Up Evolved is a fully-fledged decentralized social platform engineered for the modern Web3 researcher. We position it as a tool to **"Study Differently."** Instead of drowning in noisy Twitter feeds, scattered Discord servers, or financially motivated shilling, Wrap-Up delivers a **gamified, decentralized ecosystem** where high-quality articles and AI-generated research reports are curated, discussed, and permanently recorded on-chain via **Injective's EVM**.
+Wrap-Up is a fully-fledged decentralized social platform engineered for the modern Web3 researcher. We position it as a tool to **"Study Differently."** Instead of drowning in noisy Twitter feeds, scattered Discord servers, or financially motivated shilling, Wrap-Up delivers a **gamified, decentralized ecosystem** where high-quality articles and AI-generated research reports are curated, discussed, and permanently recorded on-chain via **Injective's EVM**.
 
 The platform merges the speed and intelligence of AI with the trust and transparency of blockchain — creating a new category of tool: a **verifiable, community-driven knowledge layer for Web3.**
 
@@ -28,13 +28,13 @@ The Web3 information landscape is broken in three critical ways:
 | **Financial Bias & Shilling** | Content is routinely published to pump tokens, mislead investors, or spread FUD |
 | **No Verifiable Source of Truth** | There is no on-chain, cryptographically backed record of what content is accurate |
 
-Wrap-Up Evolved directly attacks all three by combining **AI-powered research synthesis**, **community-driven curation**, and **immutable on-chain storage** on Injective.
+Wrap-Up directly attacks all three by combining **AI-powered research synthesis**, **community-driven curation**, and **immutable on-chain storage** on Injective.
 
 ---
 
 ### ✅ The Solution
 
-Wrap-Up Evolved is the platform where:
+Wrap-Up is the platform where:
 - **AI writes research** so you don't have to chase sources
 - **Communities curate** and rank what actually matters
 - **The blockchain records** what has been verified, forever
