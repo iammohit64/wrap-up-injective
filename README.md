@@ -1,7 +1,7 @@
 # 🌐 Wrap-Up: Study Differently
 **A Decentralized Web3 AI Research & News Curation Platform — Built on Injective**
 
-[[![Live Demo](https://via.placeholder.com/1200x600.png?text=Live+Demo+Preview)](https://wrap-up-injective.vercel.app/)]
+[![Live Demo](https://via.placeholder.com/1200x600.png?text=Live+Demo+Preview)](https://wrap-up-injective.vercel.app/)]
 [![Demo Video](https://img.shields.io/badge/Watch-Demo%20Video-FF0000?style=for-the-badge&logo=googledrive)](https://drive.google.com/file/d/1sbGePwYa6FNhM_zTYL71aRYdGMJSEwrz/view?usp=sharing)
 [![GitHub](https://img.shields.io/badge/GitHub-Repo-181717?style=for-the-badge&logo=github)](https://github.com/iammohit64/wrap-up-injective)
 [![Injective](https://img.shields.io/badge/Chain-Injective%20EVM-00C2FF?style=for-the-badge)](https://injective.com)
